@@ -1,0 +1,2 @@
+3)select soc_name,count(job_title) as a from h1b_final where job_title = "DATA SCIENTIST" AND case_status = "CERTIFIED" group by soc_name order by a desc limit 1;
+
