@@ -1,1 +1,0 @@
-1a) select year,count(*) from h1b_final where job_title='DATA ENGINEER' group by year order by year;
