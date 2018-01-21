@@ -1,4 +1,0 @@
-1a) create view engg as select year,count(*) as num from h1b_final where job_title='DATA ENGINEER' group by year order by year;
-    select year, num, (100 * (num - lag(num,1)over(year)) / lag(num,1)over(year)) as percentage from engg;
-
-
