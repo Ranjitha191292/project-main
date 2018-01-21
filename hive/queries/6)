@@ -1,0 +1,2 @@
+6)select year,case_status,count(*),(count(*)/3002445*100) from h1b_final group by year,case_status order by year,case_status;
+
